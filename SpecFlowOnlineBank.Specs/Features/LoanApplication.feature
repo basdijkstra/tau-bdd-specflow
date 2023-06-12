@@ -1,4 +1,4 @@
-﻿@loanapplication
+﻿@api
 Feature: LoanApplication
   As a loan application evaluator
   I want to only approve loan requests that meet our agreed upon loan amount rules
