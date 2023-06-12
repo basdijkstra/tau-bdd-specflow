@@ -21,14 +21,14 @@ namespace SpecFlowOnlineBank.Specs.Features
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("LoanApplication")]
-    [NUnit.Framework.CategoryAttribute("api")]
+    [NUnit.Framework.CategoryAttribute("userinterface")]
     public partial class LoanApplicationFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private static string[] featureTags = new string[] {
-                "api"};
+                "userinterface"};
         
 #line 1 "LoanApplication.feature"
 #line hidden
