@@ -11,23 +11,18 @@ namespace SpecFlowOnlineBank.Specs.StepDefinitions
         {
         }
 
-        [When(@"they apply for a (.*) dollar loan")]
-        public void WhenTheyApplyForADollarLoan(int p0)
+        [When(@"they apply for a (\d+) dollar loan")]
+        public void WhenTheyApplyForADollarLoan(int loanAmount)
         {
         }
 
-        [Then(@"the loan application is approved")]
-        public void ThenTheLoanApplicationIsApproved()
+        [Then(@"the loan application is (approved|denied)")]
+        public void ThenTheLoanApplicationIsApprovedOrDenied(string expectedResult)
         {
         }
 
-        [Then(@"the loan application is denied")]
-        public void ThenTheLoanApplicationIsDenied()
-        {
-        }
-
-        [When(@"their monthly income is (.*)")]
-        public void WhenTheirMonthlyIncomeIs(int p0)
+        [When(@"their monthly income is (\d+)")]
+        public void WhenTheirMonthlyIncomeIs(int monthlyIncome)
         {
         }
     }
